@@ -31,7 +31,7 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder().title("Spring Boot Swagger Examaple")
-                .description("Muhammet Ali KAYA Dokümanyasyonu")  // no turkish please
+                .description("Pinar Dokümanyasyonu")  // no turkish please
                 .contact(new Contact("Muhammet Ali KAYA", "", ""))
                 .license("Apache 2.0")
                 .licenseUrl("")
