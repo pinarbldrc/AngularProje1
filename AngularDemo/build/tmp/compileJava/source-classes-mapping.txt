@@ -1,0 +1,25 @@
+com/patuli/angularDemo/controller/FriendController.java
+ com.patuli.angularDemo.controller.FriendController
+com/patuli/angularDemo/dto/request/FriendRequestDto.java
+ com.patuli.angularDemo.dto.request.FriendRequestDto
+ com.patuli.angularDemo.dto.request.FriendRequestDto$FriendRequestDtoBuilder
+com/patuli/angularDemo/service/impl/FriendServiceImpl.java
+ com.patuli.angularDemo.service.impl.FriendServiceImpl
+com/patuli/angularDemo/service/FriendService.java
+ com.patuli.angularDemo.service.FriendService
+com/patuli/angularDemo/config/swagger/ApplicationConfig.java
+ com.patuli.angularDemo.config.swagger.ApplicationConfig
+com/patuli/angularDemo/dto/response/FriendResponseDto.java
+ com.patuli.angularDemo.dto.response.FriendResponseDto
+ com.patuli.angularDemo.dto.response.FriendResponseDto$FriendResponseDtoBuilder
+com/patuli/angularDemo/repository/Entity/Friend.java
+ com.patuli.angularDemo.repository.Entity.Friend
+ com.patuli.angularDemo.repository.Entity.Friend$FriendBuilder
+com/patuli/angularDemo/AngularDemoApplication.java
+ com.patuli.angularDemo.AngularDemoApplication
+com/patuli/angularDemo/config/swagger/SwaggerConfig.java
+ com.patuli.angularDemo.config.swagger.SwaggerConfig
+com/patuli/angularDemo/mapper/FriendMapper.java
+ com.patuli.angularDemo.mapper.FriendMapper
+com/patuli/angularDemo/repository/Repo/FriendRepository.java
+ com.patuli.angularDemo.repository.Repo.FriendRepository

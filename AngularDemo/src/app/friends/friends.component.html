@@ -1,0 +1,72 @@
+<div class="container">
+   <div class="jumbotron">
+   <h1 class="header">Friends Register</h1>
+    <hr>
+    <div class="row">
+          <div class="col-md-4">
+           <form  (ngSubmit)="onSubmit()" >
+              <div class="form-group">
+                <label class="form-label">
+                     ID
+                </label>
+                 <input type="number" class="form-control"  name="id"> 
+              </div>
+                <div class="form-row">
+                   <div class="form-group col-md-6">
+                   <label class="form-label">
+                 NAME
+                 </label>
+                 <input type="string" class="form-control" [(ngModel)]="friend.firstname" #firstname="ngModel" name="firstname"> 
+
+                   </div>
+                   <div class="form-group col-md-6">
+                   <label class="form-label">
+                 SURNAME
+                 </label>
+                 <input type="string" class="form-control" [(ngModel)]="friend.lastname" #lastname="ngModel"  name="lastname"> 
+                   </div>
+                </div>
+
+
+
+
+
+              <div class="form-group">
+                <label class="form-label">
+                     EMAİL
+                </label>
+                 <input type="email" class="form-control" [(ngModel)]="friend.email" #email="ngModel" name="email"> 
+              </div>
+
+              <div class="form-row">
+                   <div class="form-group col-md-6">
+                   <label class="form-label">
+                 DEPARTMENT
+                 </label>
+                 <input type="string" class="form-control" [(ngModel)]="friend.departman" #departman="ngModel"  name="departman"> 
+
+                   </div>
+                   <div class="form-group col-md-6">
+                   <label class="form-label">
+                 COUNTRY
+                 </label>
+                 <input type="string" class="form-control" [(ngModel)]="friend.country" #country="ngModel" name="country"> 
+                   </div>
+                </div>
+
+                 <button type="submit" class="btn btn-primary" style="width:100%">
+                 SUBMIT
+                 </button>
+
+            
+
+           </form>
+
+         
+        
+          </div>
+    </div>
+   
+   </div>
+
+</div>
